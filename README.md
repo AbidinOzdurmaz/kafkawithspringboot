@@ -1,2 +1,0 @@
-Bu projede Spring Boot ile birlikte basit bir kafka projesi vardır. Çalışması için bilgisayarınızda kafka'nın bulunması gerekir. Proje dosyalarındaki Dockerfile ı build ederek projeyi docker image haline dönüştürebilirsiniz. Eğer kafka yı da docker container olarak çalıştırmak isterseniz, docker ve projeyi aynı network içerisinde bulundurmanız gerekir. Swagger Konfigürasyonu mevcuttur. Test edebilirsiniz
-
