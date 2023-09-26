@@ -1,4 +1,4 @@
-package net.abidinozdurmaz.kafka;
+package dev.abidinozdurmaz.kafka;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Consumer {
 
-    @KafkaListener(topics = Constants.topic,groupId = Constants.groupId)
+    @KafkaListener(topics = Constants.TOPIC,groupId = Constants.GROUP_ID)
     public void consumeMessage(String message){
         System.out.println("Gönderdiğiniz mesaj : "+message);
     }

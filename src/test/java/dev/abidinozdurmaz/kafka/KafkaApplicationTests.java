@@ -1,4 +1,4 @@
-package net.abidinozdurmaz.kafka;
+package dev.abidinozdurmaz.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11
+FROM openjdk:21-oracle
 
 COPY ./target/kafka-0.0.1-SNAPSHOT.jar /usr/app/
 
