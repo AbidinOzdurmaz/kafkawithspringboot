@@ -14,5 +14,6 @@ public class Producer {
 
     public void sendMessage(String message) {
         this.kafkaTemplate.send(Constants.TOPIC, message);
+        System.out.println("Message was sent : " + message);
     }
 }

@@ -8,7 +8,7 @@ public class Consumer {
 
     @KafkaListener(topics = Constants.TOPIC,groupId = Constants.GROUP_ID)
     public void consumeMessage(String message){
-        System.out.println("Gönderdiğiniz mesaj : "+message);
+        System.out.println("Your message is : "+message);
     }
 
 }
